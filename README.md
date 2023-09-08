@@ -17,8 +17,8 @@ Consumer: Reads the enqueued HTML content, parses it to extract hyperlinks, and 
 
 #Assumptions
 
-The URLs provided are well-formed.
-Network latency and failures are possible, and the code is designed to handle such scenarios gracefully.
+Libraries such as "requests" and "BeatifulSoup4" might not be present in all systems, provided a "pip install" at the beginning of the notebook if libraries are missing. The URLs provided are well-formed.
+Network latency and failures are possible, and the code is designed to handle such scenarios properly.
 
 #Improvements
 
