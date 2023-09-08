@@ -23,4 +23,5 @@ Network latency and failures are possible, and the code is designed to handle su
 #Improvements
 
 Rate Limiting: Introduce rate limiting to avoid overloading servers.
+
 Logging: Add detailed logging for better debugging and monitoring.
